@@ -71,3 +71,6 @@ Choose `Self-Signed certificate` when asked to provide the custom SSL certificat
 Mounted Disk Path (Required) set to /mnt/tfe
 ```
 
+- TFE is installed successfully
+
+![TFE Dashboard](https://github.com/dlavric/install-tfe/blob/main/images/Screenshot1.png)
