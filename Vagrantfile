@@ -8,8 +8,8 @@ Vagrant.configure("2") do |config|
         tfe.vm.hostname = "tfe"
         tfe.vm.network "private_network", ip: "192.168.56.51"
         tfe.vm.provider "virtualbox" do |v|     
-            # v.memory = 1024 * 4
-            # v.cpus = 2  
+            v.memory = 1024 * 4
+            v.cpus = 2  
     end
 
     tfe.vm.provision "shell", path: "scripts/install_tfe.sh"
