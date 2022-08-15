@@ -73,4 +73,4 @@ Mounted Disk Path (Required) set to /mnt/tfe
 
 - TFE is installed successfully
 
-![TFE Dashboard](https://github.com/dlavric/install-tfe/blob/main/images/Screenshot1.png)
+![TFE Dashboard](https://github.com/dlavric/tfe-vagrant/blob/main/images/Screenshot1.png)
