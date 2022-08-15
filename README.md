@@ -33,7 +33,7 @@ vagrant ssh tfe
 
 - Install TFE (for specific version follow this [KB](https://support.hashicorp.com/hc/en-us/articles/1500009010521-How-to-Install-Terraform-Enterprise-to-a-Specific-Version))
 ```shell
-sudo curl -o /tmp/install.sh https://install.terraform.io/ptfe/stable.
+sudo curl -o /tmp/install.sh https://install.terraform.io/ptfe/stable
 
 sudo chmod +x /tmp/install.sh.
 
