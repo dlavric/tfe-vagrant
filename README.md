@@ -43,17 +43,18 @@ sudo /tmp/install.sh
 - Follow the installation script prompts. Example output is below
 ```shell
 Determining local address
-The installer will use network interface 'ens5' (with IP address '192.168.56.51')
-Determining service address
-The installer will use service address '192.168.56.51' (discovered from EC2 metadata service)
-The installer has automatically detected the service IP address of this machine as 192.168.56.51.
-Do you want to:
-[0] default: use 192.168.56.51
-[1] enter new address
+The installer was unable to automatically detect the private IP address of this machine.
+Please choose one of the following network interfaces:
+[0] eth0        10.0.2.15
+[1] eth1        192.168.56.51
 Enter desired number (0-1): 0
+The installer will use network interface 'eth0' (with IP address '10.0.2.15').
+Determining service address
+The installer was unable to automatically detect the service IP address of this machine.
+Please enter the address or leave blank for unspecified.
+Service IP address: 192.168.56.51
 Does this machine require a proxy to access the Internet? (y/N) N
-Installing docker version 18.09.2 from https://get.replicated.com/docker-install.sh
-Once the installation completes, you’ll see output similar to the following.
+Installing docker version 20.10.7 from https://get.replicated.com/docker-install.sh
 
 
 To continue the installation, visit the following URL in your browser:
