@@ -67,5 +67,7 @@ To continue the installation, visit the following URL in your browser:
 Hostname: 192.168.56.51.nip.io
 
 Choose `Self-Signed certificate` when asked to provide the custom SSL certificate on the screen.
+
+Mounted Disk Path (Required) set to /mnt/tfe
 ```
 
