@@ -74,3 +74,24 @@ Mounted Disk Path (Required) set to /mnt/tfe
 - TFE is installed successfully
 
 ![TFE Dashboard](https://github.com/dlavric/tfe-vagrant/blob/main/pictures/Screenshot1.png)
+
+- Uninstall TFE
+```shell
+curl https://install.terraform.io/tfe/uninstall > uninstall.sh
+
+chmod +x uninstall.sh
+
+sudo bash uninstall.sh
+
+This script will completely uninstall Terraform Enterprise and Replicated on this system, as well as remove associated files.
+Do you wish to continue? (y/n)yes
+Proceeding with uninstall...
+Stopping and disabling the replicated services...
+....
+....
+Uninstall Complete
+
+If you ran into any unexpected errors, please contact support@hashicorp.com
+or visit the following url:
+https://support.hashicorp.com/hc/en-us/articles/360043134793-Uninstalling-Terraform-Enterprise
+```
