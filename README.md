@@ -35,9 +35,9 @@ vagrant ssh tfe
 ```shell
 sudo curl -o /tmp/install.sh https://install.terraform.io/ptfe/stable
 
-sudo chmod +x /tmp/install.sh.
+sudo chmod +x /tmp/install.sh
 
-sudo /tmp/install.sh.
+sudo /tmp/install.sh
 ```
 
 - Follow the installation script prompts. Example output is below
